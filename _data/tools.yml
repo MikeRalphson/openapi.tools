@@ -1,9 +1,9 @@
 # Converters
 
-- name: OpenAPI Converter
+- name: swagger2openapi
   category: converters
   language: Node.js
-  link: https://openapi-converter.herokuapp.com
+  link: https://mermade.org.uk/openapi-converter
   github: https://github.com/mermade/swagger2openapi
   description: An OpenAPI / Swagger 2.0 to OpenAPI 3.0.x converter and validator
   v2: true
@@ -81,6 +81,22 @@
   language: Node.js
   description: Generate Slate/Shins markdown from OpenAPI 3.0.x
   v3: true
+  
+- name: Swagger-Codegen
+  category: code-generators
+  link: https://swagger.io/swagger-codegen/
+  github: https://github.com/swagger-api/swagger-codegen
+  language: Java
+  description: Design, Build, and Document APIs in the Cloud with SwaggerHub
+  v2: true
+
+- name: generator-openapi-repo
+  category: code-generators
+  link: https://github.com/Rebilly/generator-openapi-repo
+  github: https://github.com/Rebilly/generator-openapi-repo
+  language: JavaScript
+  description: Generate the repository structure for a scalable OpenAPI definition
+  v2: true
 
 # [io-docs](https://github.com/mikeralphson/iodocs)|Node.js|fork of Mashery IO-docs with OpenAPI 2/3 support|http://io-docs.herokuapp.com/
 # [lincoln](https://github.com/temando/open-api-renderer)|React.js|A React renderer for Open API v3|https://temando.github.io/open-api-renderer/demo/?url=https://temando.github.io/open-api-renderer/petstore-open-api-v3.0.0-RC2.json
