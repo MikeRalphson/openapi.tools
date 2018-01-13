@@ -25,7 +25,6 @@
   v2: true
   v3: true
 
-
 - name: OData.OpenAPI
   category: converters
   github: https://github.com/xuzhg/OData.OpenAPI
@@ -73,13 +72,15 @@
   link: https://rebilly.github.io/ReDoc/
   description: OpenAPI/Swagger-generated API Reference Documentation
   v2: true
+  v3_progress_link: https://github.com/Rebilly/ReDoc/issues/327
 
 - name: widdershins
   category: documentation
   link: https://mermade.github.io/shins
   github: https://github.com/mermade/widdershins
   language: Node.js
-  description: Generate Slate/Shins markdown from OpenAPI 3.0.x
+  description: Generate Slate/Shins markdown from OpenAPI 3.x and 2.0
+  v2: true
   v3: true
   
 - name: Swagger-Codegen
@@ -89,6 +90,7 @@
   language: Java
   description: Design, Build, and Document APIs in the Cloud with SwaggerHub
   v2: true
+  v3-progress-link: https://github.com/swagger-api/swagger-codegen/issues/6598
 
 - name: generator-openapi-repo
   category: code-generators
@@ -136,6 +138,7 @@
   description: |
     A standalone API design studio that can be used to create new or edit existing API designs.
   v2: true
+  v3: true
 
 - name: Rápido
   category: editors
@@ -143,6 +146,18 @@
   link: https://rapidodesigner.com/
   github: https://github.com/apiacademy/rapido-web
   description: An API design tool that facilitates the sketching phase of design.
+  v2: true
+  v3: true
+
+# Linters
+
+- name: swagger2openapi
+  category: linters
+  language: Node.js
+  link: https://github.com/mermade/swagger2openapi
+  github: https://github.com/mermade/swagger2openapi
+  description: swagger2openapi also includes configurable linter
+  v2: true
   v3: true
 
 # Parsers / Validators
